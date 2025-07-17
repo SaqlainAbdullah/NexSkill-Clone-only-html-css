@@ -213,6 +213,7 @@ h3 {
 
 .training-outcome .card{
     border: 1px solid #aaaeb4;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 250px;
     height: 28vh;
     cursor: pointer;
@@ -232,4 +233,99 @@ i{
 .training-outcome .training-outcome-heading{
     color: #b01c1c;
     font-size: 45px;
+}
+
+.journey-btn{
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 14px 30px;
+  margin-top: 1rem;
+}
+
+.txt-al{
+  text-align: center;
+}
+
+.about-nexskill{
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left{
+  width: 50%;
+  /* background-color: blue; */
+  height: 100%;
+}
+
+.left img{
+  width: 703px;
+  margin-top: 180px;
+  padding: 50px;
+}
+
+.right{
+  width: 50%;
+  height: 100%;
+  padding: 15px 35px;
+}
+
+.right h1{
+  font-size: 55px;
+  color: #b01c1c;
+  font-weight: 900;
+}
+
+.right h3{
+  font-size: 30px;
+  margin-top: 10px;
+  line-height: 1.1;
+}
+
+.right h3::after{
+  content: '';
+  margin-top: 20px;
+  margin-bottom: 46px;
+  width: 100px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #b01c1c;
+  display: block;
+}
+
+p{
+  font-size: 20px;
+  width: 40vw;
+  margin-top: 30px;
+  color: #5c5f61fe;
+}
+
+.about-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 45vw;
+  margin-left: -20px;
+}
+
+.about-card1,
+.about-card2,
+.about-card3,
+.about-card4,
+.about-card5,
+.about-card6{
+  width: 270px;
+  /* background-color: red; */
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 25px;
+  padding: 15px 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
