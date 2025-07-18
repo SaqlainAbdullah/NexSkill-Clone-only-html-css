@@ -125,7 +125,7 @@ input::placeholder {
 .bell-icon{
   position: fixed;
   right: 12px;
-  bottom: 10px;
+  bottom: 15px;
   width: 60px;
   background-color: #ffdddd;
   padding: 10px;
